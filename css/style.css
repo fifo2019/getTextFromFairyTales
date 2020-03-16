@@ -1,0 +1,63 @@
+@font-face {
+    font-family: EBGaramond-Bold;
+    src: url('../fonts/EBGaramond-Bold.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.text-wrp {
+    width: 900px;
+    height: 600px;
+    background-image: url("../img/bgi.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    margin: 0 0 20px 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.text-box {
+    max-width: 350px;
+    width: 100%;
+    text-align: left;
+    box-sizing: border-box;
+    font-family: EBGaramond-Bold, serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    padding: 0;
+    margin: 75px 57px 0 0;
+}
+
+.js-create-btn {
+    width: 180px;
+    height: 140px;
+    background-image: url("../img/create-btn.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 0;
+    margin: 198px 164px 0 0;
+    outline: none;
+    cursor: pointer;
+    font-family: EBGaramond-Bold, serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.text-style {
+    font-weight: 600;
+    font-size: 23px;
+}
+
