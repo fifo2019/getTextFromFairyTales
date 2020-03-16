@@ -42,18 +42,19 @@
 }
 
 .js-create-btn {
-    width: 180px;
-    height: 140px;
+    width: 250px;
+    height: 196px;
     background-image: url("../img/create-btn.png");
     background-size: cover;
     background-repeat: no-repeat;
     border: 0;
-    margin: 198px 164px 0 0;
-    outline: none;
+    margin: 161px 128px 0 0;
     cursor: pointer;
     font-family: EBGaramond-Bold, serif;
     font-weight: 700;
     font-size: 18px;
+    display: flex;
+    align-items: center;
 }
 
 .text-style {
