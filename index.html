@@ -9,47 +9,49 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="container">
-        <div class="text-wrp">
-            <div class="js-create-btn">
-                <p>Если заменить пропуски - получится сказка!</br></br> Жми смелее!</p>
-            </div>
-        </div>
-        <div class="text-processing">
-            <form action="#">
-                <span class="text-style">Заполните поля, где текст пропущен!</span>
-                <label>var1
-                    <input type="text" name="var1" value="" placeholder="var1">
-                </label>
-                <label>var2
-                    <input type="text" name="var2" value="" placeholder="var2">
-                </label>
-                <label>var3
-                    <input type="text" name="var3" value="" placeholder="var3">
-                </label>
-                <label>var4
-                    <input type="text" name="var4" value="" placeholder="var4">
-                </label>
-                <label>var5
-                    <input type="text" name="var5" value="" placeholder="var5">
-                </label>
-                <label>var6
-                    <input type="text" name="var6" value="" placeholder="var6">
-                </label>
-                <label>var1
-                    <input type="text" name="var1" value="" placeholder="var1">
-                </label>
-                <label>speach
-                    <input type="text" name="speach" value="" placeholder="speach">
-                </label>
-            </form>
-        </div>
-        <div class="text-result">
-            <span class="text-style">Результат выполнения:</span>
+
+<div class="container">
+    <div class="text-wrp">
+        <div class="text-create-wrp">
+            <p>Если заменить пропуски - получится сказка!</br></br> <span class="js-create-btn">Начать!</span></p>
         </div>
     </div>
+    <div class="text-processing">
+        <form action="#" class="text-form">
+            <span class="text-style">Измените поля, с помощью кнопок!</span>
+            <label class="text-input-wrp">
+                <input type="text" name="var1" value="дед" placeholder="var1" hidden>
+                <button type="button" class="js-text-update-btn">var1</button>
+            </label>
+            <label class="text-input-wrp">
+                <input type="text" name="var2" value="баба" placeholder="var2" hidden>
+                <button type="button" class="js-text-update-btn">var2</button>
+            </label>
+            <label class="text-input-wrp">
+                <input type="text" name="var3" value="курочка ряба" placeholder="var3" hidden>
+                <button type="button" class="js-text-update-btn">var3</button>
+            </label>
+            <label class="text-input-wrp">
+                <input type="text" name="var4" value="яичко" placeholder="var4" hidden>
+                <button type="button" class="js-text-update-btn">var4</button>
+            </label>
+            <label class="text-input-wrp">
+                <input type="text" name="var5" value="Мышка" placeholder="var5" hidden>
+                <button type="button" class="js-text-update-btn">var5</button>
+            </label>
+            <label class="text-input-wrp">
+                <input type="text" name="var6" value="хвостиком" placeholder="var6" hidden>
+                <button type="button" class="js-text-update-btn">var6</button>
+            </label>
+            <label class="text-input-wrp">
+                <input type="text" name="speach" value="- Не плачь, дед, не плачь, баба: снесу вам яичко не золотое - простое!" placeholder="speach" hidden>
+                <button type="button" class="js-text-update-btn">speach</button>
+            </label>
+        </form>
+    </div>
+</div>
 
-<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+<script src="js/jquery-3.2.1.min.js"></script>
 <script src="js/scripts.js"></script>
 </body>
 </html>
